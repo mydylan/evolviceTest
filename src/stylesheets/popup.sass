@@ -1,0 +1,89 @@
+.popup-component
+  display: none
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background: rgba(0,0,0,0.5)
+  z-index: 1
+
+  &.show
+    display: block
+
+  .wrapper
+    width: 100%
+    height: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+
+  .close
+    position: fixed
+    top: 20px
+    right: 20px
+    width: 40px
+    height: 40px
+    cursor: pointer
+    z-index: 2
+    &::after,
+    &::before
+      content: ""
+      position: absolute
+      display: block
+      top: 0
+      left: 20px
+      width: 1px
+      height: 40px
+      background: white
+
+    &::after
+      transform: rotate(45deg)
+
+    &::before
+      transform: rotate(-45deg)
+
+  .content
+    width: 60%
+    height: 80%
+    padding: 30px
+    background: white
+    border: 1px solid #ccc
+    border-radius: 3px
+    box-sizing: border-box
+
+  form
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    height: 100%
+
+  label
+    width: 100px
+    margin: 0 5px 0 0
+    font-size: 14px
+    color: #aaa
+
+  .form-wrapper
+    & > div, .price-field
+      display: flex
+      justify-content: space-between
+      align-items: center
+
+    & > div:last-child
+      text-align: center
+
+    input, textarea
+      margin: 10px 0
+      padding: 0 5px
+      line-height: 20px
+      font-size: 14px
+      flex-grow: 1
+      border: 1px solid #ccc
+
+  .save-wrapper
+    text-align: center
+    button
+      width: 50px
+      height: 30px
+      font-size: 14px

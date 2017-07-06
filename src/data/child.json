@@ -1,0 +1,30 @@
+{
+  "contentType":null,
+  "id":"c482b0fb-ca01-4200-ba10-61a16f8597ae",
+  "properties":null,
+  "createdAt":null,
+  "offer":[
+    {
+      "properties":{
+        "name":"Acer computer",
+        "category":"computers ",
+        "description":"he Extensa provides up to 7 hours1 of unplugged, on-the-go power, keeping you connected and productive all day. Access files on all your devices with AcerCloud. Carry with comfort: The Acer Extensa is one of the slimmest laptops in its class and features an easy-grip design.",
+        "productName":"Acer all-in-one",
+        "retailerUrl":"http://www.dell.com/laptop1",
+        "productBrand":"Acer",
+        "reducedPrice":{
+          "amount":888,
+          "currencyCode":"USD"
+        },
+        "originalPrice":{
+          "amount":999,
+          "currencyCode":"USD"
+        },
+        "productImagePointer":{
+          "itemName":"acer.jpg"
+        }
+      },
+      "createdAt":"2017-03-07T17:12:21.177Z"
+    }
+  ]
+}
